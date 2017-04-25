@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CalculadoraUber</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="uber_xl">Uber xl</string>
+    <string name="uber_x">Uber x</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="uberx">Preferencias Uber X</string>
+    <string name="uberxl">Preferencias Uber XL</string>
+</resources>

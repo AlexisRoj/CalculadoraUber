@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/uberx">
+
+        <EditTextPreference
+            android:key="basex"
+            android:title="Precio base"
+            android:summary="Este es el precio base del servicio uber x"/>
+
+        <EditTextPreference
+            android:key="km_menor_20x"
+            android:title="Precio KM menor a 20"
+            android:summary="Precio del km menores a 20km uber x"/>
+
+        <EditTextPreference
+            android:key="minutox"
+            android:title="Precio de minuto"
+            android:summary="Precio del minuto de uber x"/>
+
+        <EditTextPreference
+            android:key="km_mayor_20x"
+            android:title="Precio KM mayor a 20"
+            android:summary="Precio del km mayores a 20km uber x"/>
+
+        <EditTextPreference
+            android:key="couta_solictudx"
+            android:title="Cuota de solicitud"
+            android:summary="Precio de la solicitud servicio uber x"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="@string/uberxl">
+
+        <EditTextPreference
+            android:key="basexl"
+            android:title="Precio base"
+            android:summary="Este es el precio base del servicio uber xl"/>
+
+        <EditTextPreference
+            android:key="km_menor_20xl"
+            android:title="Precio KM menor a 20"
+            android:summary="Precio del km menores a 20km uber xl"/>
+
+        <EditTextPreference
+            android:key="minutoxl"
+            android:title="Precio de minuto"
+            android:summary="Precio del minuto de uber xl"/>
+
+        <EditTextPreference
+            android:key="km_mayor_20xl"
+            android:title="Precio KM mayor a 20"
+            android:summary="Precio del km mayores a 20km uber xl"/>
+
+        <EditTextPreference
+            android:key="couta_solictudxl"
+            android:title="Cuota de solicitud"
+            android:summary="Precio de la solicitud servicio uber xl"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
